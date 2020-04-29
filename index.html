@@ -16,7 +16,7 @@
     <div class="chart" id="bargraph">
         <script>
             // LOAD JSON FROM URL
-            var url='http://0.0.0.0:8000/new.json';
+            var url='/dcronchain/new.json';
             d3.json(url, function(error, data) {
             if (error) return console.warn(error);
             var layout = {barmode: 'group'};
